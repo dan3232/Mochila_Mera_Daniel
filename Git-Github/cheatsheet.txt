@@ -1,0 +1,34 @@
+Crear una carpeta
+mkdir {nombre}
+
+Crear un archivo
+touch {nombre}
+
+Inicializar  a git una carpeta
+git init
+
+Añadir a git el contenido
+git add . | git add {nombre}
+
+Commitear el contenido
+git commit -m {texto}
+
+Clonar un repositorio
+git clone {link}
+
+Subir  el contenido al repositorio remoto
+git push -u origin {nombre de la rama}
+
+Descargar contenido del repositorio remoto
+git pull origin {nombre de la rama}
+
+Verificar el estado del contenido
+git status
+
+Entrar a una carpeta
+cd {nombre de la carpeta}
+
+Salir de una carpeta
+cd ..
+
+
